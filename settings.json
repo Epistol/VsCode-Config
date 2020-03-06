@@ -1,4 +1,65 @@
 {
+    // Font
+    "editor.fontSize": 14,
+    "editor.letterSpacing": 0,
+    "editor.suggestFontSize": 16,
+    "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 20,
+    "editor.fontLigatures": true,
+    // Editor
+    "editor.tabSize": 2,
+    "explorer.confirmDragAndDrop": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        }
+    ],
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.implicitProjectConfig.checkJs": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescriptHero.imports.insertSemicolons": false,
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "singleQuote": true,
+            "semi": false,
+            "stylelintIntegration": true,
+            "eslintIntegration": true,
+            "trailingComma": "es5"
+        }
+    },
+    "workbench.tree.renderIndentGuides": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.scrollBeyondLastLine": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "eslint.alwaysShowStatus": true,
+    "eslint.lintTask.enable": true,
+    "vetur.useWorkspaceDependencies": true,
+    "vuex_peek.storePath": [
+        "src/store/"
+    ],
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "tailwindCSS.emmetCompletions": true,
+    "vetur.validation.style": false,
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
@@ -53,38 +114,28 @@
             "value": "#42b883"
         }
     ],
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "disableLigatures.mode": "Cursor",
+    "liveshare.account": "",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.cursorSmoothCaretAnimation": true,
     "i18n-ally.displayLanguage": "fr",
     "vue-i18n-ally.displayLanguage": "fr",
-    "javascript.implicitProjectConfig.experimentalDecorators": true,
-    "eslint.packageManager": "yarn",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "vetur.format.defaultFormatter.js": "none",
-    "vetur.format.defaultFormatter.html": "none",
-    "vetur.format.defaultFormatter.ts": "prettier",
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        }
-    ],
-    "editor.formatOnSave": false,
-    "vetur.validation.template": true,
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
-    }
+    },
+    "eslint.autoFixOnSave": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Palenight Theme",
+    // Terminal style
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.cursorStyle": "line"
+
 }
