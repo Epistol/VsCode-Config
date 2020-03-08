@@ -1,12 +1,10 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "terminal.external.windowsExec": "C:\\cmder\\phpstorm.bat",
-    "material-icon-theme.activeIconPack": "vue_vuex",
     // Font
     "editor.fontSize": 14,
     "editor.letterSpacing": 0,
     "editor.suggestFontSize": 16,
-    "editor.fontFamily": "'Cascadia Code', 'Fira Code', monospace",
+  "editor.fontFamily": "'Cascadia Code', 'Fira Code', monospace",
+
     "editor.lineHeight": 20,
     "editor.fontLigatures": true,
     // Editor
@@ -16,18 +14,18 @@
     "editor.formatOnPaste": true,
     "eslint.packageManager": "yarn",
     "eslint.validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        },
-        {
-            "language": "typescript",
-            "autoFix": true
-        }
+      {
+        "language": "vue",
+        "autoFix": true
+      },
+      {
+        "language": "javascript",
+        "autoFix": true
+      },
+      {
+        "language": "typescript",
+        "autoFix": true
+      }
     ],
     "javascript.preferences.quoteStyle": "single",
     "javascript.implicitProjectConfig.checkJs": true,
@@ -35,17 +33,17 @@
     "typescriptHero.imports.insertSemicolons": false,
     "vetur.format.defaultFormatter.js": "prettier-eslint",
     "vetur.format.defaultFormatterOptions": {
-        "prettier": {
-            "singleQuote": true,
-            "semi": false,
-            "stylelintIntegration": true,
-            "eslintIntegration": true,
-            "trailingComma": "es5"
-        }
+      "prettier": {
+        "singleQuote": true,
+        "semi": false,
+        "stylelintIntegration": true,
+        "eslintIntegration": true,
+        "trailingComma": "es5"
+      }
     },
     "workbench.tree.renderIndentGuides": "always",
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "editor.scrollBeyondLastLine": false,
     "files.trimTrailingWhitespace": true,
@@ -57,43 +55,12 @@
     "eslint.lintTask.enable": true,
     "vetur.useWorkspaceDependencies": true,
     "vuex_peek.storePath": [
-        "src/store/"
+      "src/store/"
     ],
     "javascript.implicitProjectConfig.experimentalDecorators": true,
     "javascript.referencesCodeLens.enabled": true,
     "tailwindCSS.emmetCompletions": true,
-    "disableLigatures.mode": "Cursor",
-    "liveshare.account": "",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.cursorSmoothCaretAnimation": true,
-    "i18n-ally.displayLanguage": "fr",
-    "vue-i18n-ally.displayLanguage": "fr",
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "eslint.autoFixOnSave": true,
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    // Terminal style
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.lineHeight": 1.2,
-    "terminal.integrated.cursorBlinking": false,
-    "terminal.integrated.cursorStyle": "line",
-    // Little things
-    "editor.quickSuggestionsDelay": 0,
-    "diffEditor.ignoreTrimWhitespace": false,
     "vetur.validation.style": false,
-    "eslint.autoFixOnSave": true,
-    "vetur.useWorkspaceDependencies": true,
-    "vetur.format.defaultFormatter.js": "vscode-typescript",
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
-    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-    "explorer.confirmDragAndDrop": false,
     "peacock.favoriteColors": [
       {
         "name": "Angular Red",
@@ -148,10 +115,30 @@
         "value": "#42b883"
       }
     ],
-    "i18n-ally.displayLanguage": "fr-FR",
-    "sync.autoDownload": false,
-    "sync.autoUpload": true,
-    "sync.gist": "478079ca098b9cf40263cce4d4d83891",
-    "sync.forceUpload": false,
-    "workbench.colorTheme": "Material Theme Darker",
-}
+    "disableLigatures.mode": "Cursor",
+    "liveshare.account": "",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.cursorSmoothCaretAnimation": true,
+    "i18n-ally.displayLanguage": "fr",
+    "vue-i18n-ally.displayLanguage": "fr",
+    "[json]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.autoFixOnSave": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    // Terminal style
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.cursorStyle": "line",
+    // Little things
+    "editor.quickSuggestionsDelay": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "Material Theme Darker"
+  }
