@@ -1,6 +1,6 @@
 # VsCode-Config
 
-##Extensions
+## Extensions
 
 - beautify
 - better-comments
