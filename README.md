@@ -2,53 +2,53 @@
 
 ##Extensions
 
-beautify
-better-comments
-bracket-pair-colorizer-2
-change-case
-chat
-code-settings-sync
-comment-anchors
-console-log-snippet-javascript
-debugger-for-chrome
-disableligatures
-dotenv
-errorlens
-eslint-disable-snippets
-gc-excelviewer
-gitlens
-grammarly
-hide-gitignored
-horizon-theme-vscode
-html-css-class-completion
-i18n-ally
-increment-selection
-intellij-idea-keybindings
-markdown-all-in-one
-markdown-preview-enhanced
-material-icon-theme
-material-palenight-theme
-one-dark-pro-italic-vivid
-shades-of-purple
-string-converter
-synthwave-vscode
-tech-debt-tracker
-testcafe-snippets
-typescript-hero
-vetur
-vsc-community-material-theme
-vscode-apielements
-vscode-color
-vscode-docker
-vscode-eslint
-vscode-firefox-debug
-vscode-import-cost
-vscode-peacock
-vscode-scss
-vscode-tailwindcss
-vscode-vuex-peek
-vscodeintellicode
-vsliveshare
-vsliveshare-audio
-vsliveshare-pack
-workspace 
+- beautify
+- better-comments
+- bracket-pair-colorizer-2
+- change-case
+- chat
+- code-settings-sync
+- comment-anchors
+- console-log-snippet-javascript
+- debugger-for-chrome
+- disableligatures
+- dotenv
+- errorlens
+- eslint-disable-snippets
+- gc-excelviewer
+- gitlens
+- grammarly
+- hide-gitignored
+- horizon-theme-vscode
+- html-css-class-completion
+- i18n-ally
+- increment-selection
+- intellij-idea-keybindings
+- markdown-all-in-one
+- markdown-preview-enhanced
+- material-icon-theme
+- material-palenight-theme
+- one-dark-pro-italic-vivid
+- shades-of-purple
+- string-converter
+- synthwave-vscode
+- tech-debt-tracker
+- testcafe-snippets
+- typescript-hero
+- vetur
+- vsc-community-material-theme
+- vscode-apielements
+- vscode-color
+- vscode-docker
+- vscode-eslint
+- vscode-firefox-debug
+- vscode-import-cost
+- vscode-peacock
+- vscode-scss
+- vscode-tailwindcss
+- vscode-vuex-peek
+- vscodeintellicode
+- vsliveshare
+- vsliveshare-audio
+- vsliveshare-pack
+- workspace 
