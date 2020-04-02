@@ -23,7 +23,11 @@
         {
             "language": "typescript",
             "autoFix": true
-        }
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
     ],
     "javascript.preferences.quoteStyle": "single",
     "javascript.implicitProjectConfig.checkJs": true,
@@ -140,5 +144,9 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "explorer.confirmDelete": false,
     "editor.mouseWheelZoom": true,
-    "workbench.colorTheme": "Palenight Italic"
+    "workbench.colorTheme": "Palenight Italic",
+    "sync.gist": "180c7b7257cbf4d70a21addecb5fe107",
+    "css.validate": false,
+    "scss.validate": false,
+    "stylelint.enable": true,
 }
