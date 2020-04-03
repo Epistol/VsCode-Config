@@ -148,5 +148,6 @@
     "sync.gist": "180c7b7257cbf4d70a21addecb5fe107",
     "css.validate": false,
     "scss.validate": false,
+    "window.titleBarStyle": "custom",
     "stylelint.enable": true,
 }
